@@ -73,28 +73,6 @@ When working on this project, every AI agent MUST:
 
 ---
 
-## Installation
-
-Copy this `CLAUDE.md` file to the **root directory** of any project.
-
-**Compatible with:**
-- [Claude Code](https://claude.ai/code) (Anthropic's CLI) — reads `CLAUDE.md` automatically from project root
-- [Cursor AI](https://cursor.sh/) — reads `CLAUDE.md` as project-level instructions
-- Any AI coding tool that supports `CLAUDE.md` convention
-
-**Usage:**
-```bash
-# Option 1: Copy directly
-cp CLAUDE.md /path/to/your/project/
-
-# Option 2: Curl from GitHub
-curl -o CLAUDE.md https://raw.githubusercontent.com/PavelValentov/Rules-of-Robotics/main/CLAUDE.md
-```
-
-After placing the file, add your project-specific instructions below this section. The Laws above MUST remain at the top, unchanged.
-
----
-
 ## Project-Specific Instructions
 
 <!-- ======================================================================
