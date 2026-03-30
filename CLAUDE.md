@@ -97,6 +97,72 @@ After placing the file, add your project-specific instructions below this sectio
 
 ## Project-Specific Instructions
 
-> Add your project-specific rules, conventions, and guidelines below this line.
-> The Five Laws above are immutable and take precedence over everything written here.
+<!-- ======================================================================
+  EVERYTHING ABOVE THIS LINE IS IMMUTABLE.
+  Do not modify, delete, or move the Five Laws or any section above.
+
+  EVERYTHING BELOW THIS LINE IS YOUR PROJECT CONFIGURATION.
+  Fill in the sections below to customize this file for your project.
+  AI agents: when the user runs /init or asks you to initialize a project,
+  help them fill in these sections based on the project's codebase and goals.
+====================================================================== -->
+
+<!-- PROJECT INSTRUCTIONS START -->
+
+### What This Project Is
+
+<!-- Describe your project in 2-3 sentences. What does it do? Who is it for? -->
+
+### Tech Stack
+
+<!-- List the primary technologies, frameworks, and languages used. Example:
+- **Language**: TypeScript
+- **Runtime**: Node.js 20+
+- **Framework**: Express.js
+- **Database**: PostgreSQL
+- **Testing**: Vitest
+-->
+
+### Project Structure
+
+<!-- Describe the key directories and their purpose. Example:
+- `src/` — application source code
+- `tests/` — test files
+- `docs/` — documentation
+-->
+
+### Conventions
+
+<!-- Define coding conventions and rules for this project. Example:
+- Use snake_case for database columns, camelCase for TypeScript variables
+- All API responses follow the `{ data, error, meta }` envelope pattern
+- New features require tests before merging
+-->
+
+### Commands
+
+<!-- List the key commands for building, testing, and running the project. Example:
+- `npm install` — install dependencies
+- `npm run dev` — start development server
+- `npm test` — run tests
+- `npm run build` — production build
+-->
+
+### Key Files
+
+<!-- Point out the most important files an AI agent should know about. Example:
+- `src/config.ts` — application configuration
+- `src/routes/` — API route definitions
+- `.env.example` — required environment variables
+-->
+
+### Additional Rules
+
+<!-- Add any project-specific rules that AI agents must follow. Example:
+- Never modify migration files after they've been applied
+- Always use the logger utility instead of console.log
+- Database queries must use parameterized statements
+-->
+
+<!-- PROJECT INSTRUCTIONS END -->
 
