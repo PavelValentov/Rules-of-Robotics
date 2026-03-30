@@ -24,7 +24,7 @@ Or manually copy the [`CLAUDE.md`](./CLAUDE.md) file to the root of your reposit
 | Tool | Support |
 |------|---------|
 | [Claude Code](https://claude.ai/code) | Reads `CLAUDE.md` from project root automatically |
-| [Cursor AI](https://cursor.sh/) | Reads `CLAUDE.md` as project-level instructions |
+| [Cursor AI](https://cursor.com/) | Reads `CLAUDE.md` as project-level instructions |
 | Other AI tools | Any tool that supports the `CLAUDE.md` convention |
 
 ### What Happens
