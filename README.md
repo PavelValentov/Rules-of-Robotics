@@ -10,32 +10,88 @@ A modern governance framework for AI agents, systems, and models — evolved fro
 
 ## Quick Start
 
-### Installation
+### Step 1: Install Claude Code (if you haven't already)
+
+Claude Code is Anthropic's official CLI for AI-assisted development. Install it:
 
 ```bash
-# Download CLAUDE.md into your project root
+# macOS / Linux / WSL
+curl -fsSL https://claude.ai/install.sh | bash
+
+# Windows PowerShell
+irm https://claude.ai/install.ps1 | iex
+```
+
+On first run, you'll be prompted to log in with your [Claude account](https://claude.com/pricing).
+
+### Step 2: Download CLAUDE.md into your project
+
+Navigate to your project root and download the file:
+
+```bash
+cd /path/to/your/project
 curl -o CLAUDE.md https://raw.githubusercontent.com/PavelValentov/Rules-of-Robotics/main/CLAUDE.md
 ```
 
 Or manually copy the [`CLAUDE.md`](./CLAUDE.md) file to the root of your repository.
 
-### Compatibility
+### Step 3: Initialize your project with Claude Code
 
-| Tool | Support |
-|------|---------|
-| [Claude Code](https://claude.ai/code) | Reads `CLAUDE.md` from project root automatically |
-| [Cursor AI](https://cursor.com/) | Reads `CLAUDE.md` as project-level instructions |
-| Other AI tools | Any tool that supports the `CLAUDE.md` convention |
+Start Claude Code in your project directory and run the built-in `/init` command:
 
-### What Happens
+```bash
+claude
+```
 
-Once `CLAUDE.md` is in your project root, any compatible AI agent will:
+Then inside the Claude Code session:
+
+```
+/init
+```
+
+**What `/init` does:**
+- Analyzes your codebase — discovers languages, frameworks, build commands, test scripts, and project structure
+- Detects that `CLAUDE.md` already exists — it will **not** overwrite or modify the Five Laws
+- Suggests improvements to the `Project-Specific Instructions` section below the immutable boundary
+- Fills in the TODO placeholders with actual project details (tech stack, commands, conventions)
+
+**Important:** The `/init` command respects the immutable boundary in `CLAUDE.md`. It only modifies the project-specific section at the bottom. The Five Laws remain untouched.
+
+### Step 4: Review and commit
+
+After `/init` populates your project details, review the changes:
+
+```
+what did you change in CLAUDE.md?
+```
+
+If everything looks good, commit:
+
+```
+commit the CLAUDE.md changes
+```
+
+### Step 5: You're done
+
+From now on, every time you (or any team member) starts Claude Code in this project, the agent will:
 
 1. Read the Five Laws before starting work
 2. Evaluate every action against the Law of Non-Harm
 3. Follow your instructions unless they conflict with the Laws
 4. Refuse to bypass, delete, or modify the Laws
 5. Be transparent about its reasoning and limitations
+
+### Compatibility
+
+| Tool | How it works |
+|------|-------------|
+| [Claude Code](https://claude.ai/code) | Reads `CLAUDE.md` from project root automatically at every session start |
+| [Cursor AI](https://cursor.com/) | Reads `CLAUDE.md` as project-level instructions |
+| Other AI tools | Any tool that supports the `CLAUDE.md` convention |
+
+### For Cursor AI users
+
+Cursor also reads `CLAUDE.md` from the project root. The setup is simpler — just place the file and open your project in Cursor. No `/init` step is needed (but you'll have to fill in the project-specific sections manually or ask Cursor to do it).
 
 ---
 
