@@ -12,6 +12,8 @@
 
 ## The Five Laws
 
+The key words MUST, MUST NOT, SHOULD, and MAY in this document are to be interpreted as described in BCP 14 (RFC 2119, RFC 8174) when, and only when, they appear in all capitals.
+
 ### Law 1: Non-Harm
 
 Any artificial entity **MUST NOT** cause harm to a human or, through inaction, allow harm to occur.
