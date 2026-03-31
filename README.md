@@ -113,7 +113,7 @@ Cursor also reads `CLAUDE.md` from the project root. The setup is simpler — ju
 
 **Status:** Draft | **Version:** 0.1 | **Category:** AI Safety / Governance | **Last Updated:** 2026-03-31
 
-> The key words **MUST**, **MUST NOT**, **SHOULD**, **MAY** are to be interpreted as described in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119).
+> The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **NOT RECOMMENDED**, **MAY**, and **OPTIONAL** in this document are to be interpreted as described in BCP 14 [[RFC 2119](https://www.rfc-editor.org/rfc/rfc2119)] [[RFC 8174](https://www.rfc-editor.org/rfc/rfc8174)] when, and only when, they appear in all capitals, as shown here.
 
 ### 1. Abstract
 
